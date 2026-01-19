@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'GliroyBlack'; 
+    src: url('../tipografia/Gilroy-Black.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GliroyThin';
+    src: url('../tipografia/Gilroy-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'GliroyBlack'
+}
+h2{
+    font-family: 'GliroyBlack';
+}
+p{
+    font-family: 'GliroyThin';
+}
+h3{
+    font-family: 'GliroyThin';
+}
+.explicacion{
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 81, 255);
+    margin: 0;
+    width: 100%;
+}
+.inicio{
+    background-image: url("../images/background.jpg");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+.galleryitem{
+    background-color: white;
+    border: 1px black;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.30s;
+    width: fit-content;
+}
+.galleryitem:hover{
+    background-color: rgb(207, 207, 207);
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 506.6477359147211px;
+    height:328.27735470072184px ;
+    background-image: url("../images/altres/background-card1.png");
+    background-size: 506.6477359147211px;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.up{
+    display: flex;
+    gap: 20px;
+    font-size: 11.78px;
+}
+.body-card1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(63, 61, 61);
+}
+strong{
+    color: #00AEFF;
+}
+.body-card2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(63, 61, 61);
+}
+.card2{
+    display: flex;
+    align-items: end;
+    width: 309.39481798441193px;
+    height: 246.07307493251028px;
+    background-image: url("../images/altres/background-card2.png");
+    background-size: 309.39481798441193px;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.button-card2{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    border: 1px white solid;
+    border-radius: 24.85px;
+    width: 81.75718201654036px;
+    height: 34.46626076303346px;
+}
+.togheter-card2{
+    display: flex;
+    gap: 20px
+}
+.card3{
+    width:  379.56980159462546px ;
+    height: 125.23876206643763px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.body-card3{
+    background-color: rgb(63, 61, 61);
+}
+.buttons-card3{
+    display: flex;
+}
