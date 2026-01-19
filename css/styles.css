@@ -124,15 +124,40 @@ strong{
     gap: 20px
 }
 .card3{
-    width:  379.56980159462546px ;
-    height: 125.23876206643763px;
+    width: 379.56px;
+    height: 125.23px;
     background-color: white;
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    align-items: center;
 }
+
 .body-card3{
     background-color: rgb(63, 61, 61);
+    display: flex;
+    justify-content: center;
 }
 .buttons-card3{
     display: flex;
+}
+.image-card3{
+    display: flex;
+}
+.SignIn{
+    background-color: #00AEFF;
+    font-size: 8.99px;
+    border-radius: 2.57px;
+    border: none;
+}
+.Register{
+    font-size: 8.99px;
+    border: 1px #1A2B49 solid;
+    border-radius: 2.57px;
+}
+.card4{
+    width: 201.19760458483597px;
+    height: 246.24182187069437px;
+    background-image: url("../images/altres/background-card4.png");
+    background-size: 309.39481798441193px;      
+    background-position: center; 
+    background-repeat: no-repeat;
 }
